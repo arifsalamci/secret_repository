@@ -6,11 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
 public class SBLandingPage {
-
+    //new class under smartbear_pages package
     public SBLandingPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//a[@href='Process.aspx']")
-    public WebElement orderModule;
+    @FindBy(linkText = "Order")
+    public WebElement orderLink;
+
 }

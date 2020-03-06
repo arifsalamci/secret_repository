@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Driver {
 
-   private static WebDriver driver;
+    private static WebDriver driver;
 
     private Driver() {
 
@@ -19,26 +19,26 @@ public class Driver {
 
     public static WebDriver getDriver() {
 
-        if(driver == null) {
+        if (driver == null) {
 
-           switch (Config.getProperty("browser")) {
-               case "chrome":
-                   WebDriverManager.chromedriver().setup();
-                   driver = new ChromeDriver();
-                   break;
-               case "firefox":
-                   WebDriverManager.firefoxdriver().setup();
-                   driver = new FirefoxDriver();
-                   break;
-               case "safari":
-                   if(System.getProperty("os.name").toLowerCase().contains("windows")){
-                       throw new WebDriverException("Windows OS does not support safari");
-                   }
-                   WebDriverManager.getInstance(SafariDriver.class).setup();
-                   driver = new SafariDriver();
-                   break;
+            switch (Config.getProperty("browser")) {
+                case "chrome":
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                    break;
+                case "firefox":
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
+                case "safari":
+                    if (System.getProperty("os.name").toLowerCase().contains("windows")) {
+                        throw new WebDriverException("Windows OS does not support safari");
+                    }
+                    WebDriverManager.getInstance(SafariDriver.class).setup();
+                    driver = new SafariDriver();
+                    break;
 
-           }
+            }
 
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
@@ -49,8 +49,8 @@ public class Driver {
 
     }
 
-    public static void quitDriver(){
-        if(driver != null) {
+    public static void quitDriver() {
+        if (driver != null) {
             driver.quit();
             driver = null;
         }

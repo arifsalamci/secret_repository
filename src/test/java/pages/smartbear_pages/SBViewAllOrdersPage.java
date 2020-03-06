@@ -6,11 +6,16 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
 public class SBViewAllOrdersPage {
-
+    //new class under smartbear_pages package
     public SBViewAllOrdersPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//div//table//tbody//tr[2]//td[2]")
-    public WebElement firstCustomerNameInList;
+    @FindBy(linkText = "View all orders")
+    public WebElement viewAllOrdersLink;
+
+    @FindBy(xpath = "//table[@id='ctl00_MainContent_orderGrid']/tbody/tr[2]/td[2]")
+    public WebElement newOrderNameCell;
+
+
 }
