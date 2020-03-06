@@ -20,7 +20,7 @@ public class Etsy_StepDefs {
 
     @When("User searches for {string}")
     public void userSearchesFor(String searchValue) {
-        etsy_homePage.searcBox.sendKeys(searchValue + Keys.ENTER);
+        etsy_homePage.searchBox.sendKeys(searchValue + Keys.ENTER);
     }
 
 
