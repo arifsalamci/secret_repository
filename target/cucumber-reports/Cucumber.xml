@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="67.564339">
+    <testcase classname="Order functionality" name="Order functionality verification" time="12.214337">
+        <system-out>
+            <![CDATA[Given User is logged into SmartBear Tester account and on Order page and fills out the form as followed from the table below:.passed
+When User selects "ScreenSaver"from product dropdown........................passed
+And User enters "1" to quantity.............................................passed
+And User enters "Glynda" to costumer name...................................passed
+And User enters "748 O'Reilly Causeway" to street...........................passed
+And User enters "Armandton" to city.........................................passed
+And User enters "Michigan" to state.........................................passed
+And User enters "06919" to zip..............................................passed
+And User selects "visa" as card type........................................passed
+And User enters "6759-4689-4409-7640" to card number........................passed
+And User enters "10/20" to expiration date..................................passed
+Then User clicks process button.............................................passed
+Then User verifies "Glynda" is in the list..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Order functionality" name="Order functionality verification 2" time="8.490697">
+        <system-out>
+            <![CDATA[Given User is logged into SmartBear Tester account and on Order page and fills out the form as followed from the table below:.passed
+When User selects "MyMoney"from product dropdown............................passed
+And User enters "2" to quantity.............................................passed
+And User enters "Karoline" to costumer name.................................passed
+And User enters "87282 Thaddeus Fords" to street............................passed
+And User enters "Port Christiniaburgh" to city..............................passed
+And User enters "Minnesota" to state........................................passed
+And User enters "90997" to zip..............................................passed
+And User selects "visa" as card type........................................passed
+And User enters "6767-3278-0268-5548" to card number........................passed
+And User enters "10/20" to expiration date..................................passed
+Then User clicks process button.............................................passed
+Then User verifies "Karoline" is in the list................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Order functionality" name="Order functionality verification 3" time="8.082404">
+        <system-out>
+            <![CDATA[Given User is logged into SmartBear Tester account and on Order page and fills out the form as followed from the table below:.passed
+When User selects "ScreenSaver"from product dropdown........................passed
+And User enters "8" to quantity.............................................passed
+And User enters "Jorge" to costumer name....................................passed
+And User enters "7292 Walker Common" to street..............................passed
+And User enters "North Jerome" to city......................................passed
+And User enters "Oregon" to state...........................................passed
+And User enters "47350" to zip..............................................passed
+And User selects "visa" as card type........................................passed
+And User enters "3529-9487-7890-7481" to card number........................passed
+And User enters "10/20" to expiration date..................................passed
+Then User clicks process button.............................................passed
+Then User verifies "Jorge" is in the list...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Order functionality" name="Order functionality verification 4" time="7.695403">
+        <system-out>
+            <![CDATA[Given User is logged into SmartBear Tester account and on Order page and fills out the form as followed from the table below:.passed
+When User selects "MyMoney"from product dropdown............................passed
+And User enters "4" to quantity.............................................passed
+And User enters "Stevie" to costumer name...................................passed
+And User enters "982 Ivory Ways" to street..................................passed
+And User enters "Okunevamouth" to city......................................passed
+And User enters "California" to state.......................................passed
+And User enters "62095" to zip..............................................passed
+And User selects "visa" as card type........................................passed
+And User enters "6709245787454554" to card number...........................passed
+And User enters "10/20" to expiration date..................................passed
+Then User clicks process button.............................................passed
+Then User verifies "Stevie" is in the list..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Order functionality" name="Order functionality verification 5" time="7.692921">
+        <system-out>
+            <![CDATA[Given User is logged into SmartBear Tester account and on Order page and fills out the form as followed from the table below:.passed
+When User selects "ScreenSaver"from product dropdown........................passed
+And User enters "2" to quantity.............................................passed
+And User enters "Kourtney" to costumer name.................................passed
+And User enters "079 Felecia Mountains" to street...........................passed
+And User enters "East Casey" to city........................................passed
+And User enters "North Dakota" to state.....................................passed
+And User enters "07325" to zip..............................................passed
+And User selects "visa" as card type........................................passed
+And User enters "6759-5691-3468-9474" to card number........................passed
+And User enters "10/20" to expiration date..................................passed
+Then User clicks process button.............................................passed
+Then User verifies "Kourtney" is in the list................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Order functionality" name="Order functionality verification 6" time="7.375685">
+        <system-out>
+            <![CDATA[Given User is logged into SmartBear Tester account and on Order page and fills out the form as followed from the table below:.passed
+When User selects "MyMoney"from product dropdown............................passed
+And User enters "9" to quantity.............................................passed
+And User enters "Virgil" to costumer name...................................passed
+And User enters "8963 Stracke Vista" to street..............................passed
+And User enters "North Elene" to city.......................................passed
+And User enters "Texas" to state............................................passed
+And User enters "11917" to zip..............................................passed
+And User selects "visa" as card type........................................passed
+And User enters "3684-215067-4698" to card number...........................passed
+And User enters "10/20" to expiration date..................................passed
+Then User clicks process button.............................................passed
+Then User verifies "Virgil" is in the list..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Order functionality" name="Order functionality verification 7" time="8.361979">
+        <system-out>
+            <![CDATA[Given User is logged into SmartBear Tester account and on Order page and fills out the form as followed from the table below:.passed
+When User selects "ScreenSaver"from product dropdown........................passed
+And User enters "2" to quantity.............................................passed
+And User enters "Aimee" to costumer name....................................passed
+And User enters "841 O'Hara Square" to street...............................passed
+And User enters "Lake Dania" to city........................................passed
+And User enters "South Carolina" to state...................................passed
+And User enters "66601" to zip..............................................passed
+And User selects "visa" as card type........................................passed
+And User enters "3752-205645-67114" to card number..........................passed
+And User enters "10/20" to expiration date..................................passed
+Then User clicks process button.............................................passed
+Then User verifies "Aimee" is in the list...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Order functionality" name="Order functionality verification 8" time="7.650913">
+        <system-out>
+            <![CDATA[Given User is logged into SmartBear Tester account and on Order page and fills out the form as followed from the table below:.passed
+When User selects "MyMoney"from product dropdown............................passed
+And User enters "1" to quantity.............................................passed
+And User enters "Kenny" to costumer name....................................passed
+And User enters "26101 Christin Junction" to street.........................passed
+And User enters "Konopelskichester" to city.................................passed
+And User enters "Connecticut" to state......................................passed
+And User enters "12575" to zip..............................................passed
+And User selects "visa" as card type........................................passed
+And User enters "6771-8919-8293-7670" to card number........................passed
+And User enters "10/20" to expiration date..................................passed
+Then User clicks process button.............................................passed
+Then User verifies "Kenny" is in the list...................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
