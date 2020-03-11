@@ -8,7 +8,7 @@ import utilities.ExtentReport;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = "html:target/cucumber-reports",
+        plugin = "json:target/cucumber-reports.json",
         features = "src/test/resources/features/",
         glue = "step_definitions",
         dryRun = false,
