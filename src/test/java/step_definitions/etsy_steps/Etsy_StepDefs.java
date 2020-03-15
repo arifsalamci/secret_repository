@@ -35,5 +35,18 @@ public class Etsy_StepDefs {
     }
 
 
+    @Then("User should see {string} in the Etsy title")
+    public void userShouldSeeInTheEtsyTitle(String arg0) {
 
+
+    }
+
+    @Then("User should see wooden spoon in the Etsy title")
+    public void userShouldSeeWoodenSpoonInTheEtsyTitle() {
+        
+    }
+
+    @When("User searches for wooden spoon")
+    public void userSearchesForWoodenSpoon() {
+    }
 }

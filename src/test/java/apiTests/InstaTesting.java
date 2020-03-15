@@ -7,9 +7,12 @@ public class InstaTesting {
 
         // Sign up page
         // On sign up page users MUST provide name, age, username etc
-        InstagramUser user1 = new InstagramUser();
-
-
+        InstagramUser user1 = new InstagramUser("arif", 45, "arif45");
+        InstagramUser user2 = new InstagramUser("arif", 45, "arif45");
+        instagram.addUser(user1);
+        instagram.addUser(user2);
     }
+
+
 
 }

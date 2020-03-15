@@ -1,3 +1,4 @@
+@etsyAll
 Feature: Etsy search functionality
   CBT-25 Agile Story : can be placed here
 #CucumberParserException

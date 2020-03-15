@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.718 s <<< FAILURE! - in runners.CukesRunner
+Google title verification(Google feature verifications)  Time elapsed: 7.807 s  <<< FAILURE!
+java.lang.AssertionError: Title does not contain expected value!
+

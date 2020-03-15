@@ -60,4 +60,16 @@ public class Instagram {
         System.out.println("username: " + username + " not found");
     }
 
-}
+
+    public void seeAllUser(String username) {
+        int counter = 1;
+        for (InstagramUser user : users) {
+            if (user.username.equalsIgnoreCase(username)) {
+                System.out.println("User " + counter++);
+                System.out.println("Name " + user.name);
+                System.out.println("UserName " + user.username);
+                System.out.println("Age " + user.age);
+
+            }
+        }
+    }}

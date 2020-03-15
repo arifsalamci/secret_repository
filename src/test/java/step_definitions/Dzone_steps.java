@@ -15,7 +15,7 @@ public class Dzone_steps {
     public void user_goes_to(String url) {
 
         Driver.getDriver().get(url);
-        Log.info("user on: " + url);
+        Log.info("User on: " + url);
 
     }
 
